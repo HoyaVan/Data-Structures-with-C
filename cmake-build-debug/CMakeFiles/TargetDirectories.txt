@@ -1,3 +1,3 @@
-C:/Users/dbgh7/CLionProjects/stack자료구조/cmake-build-debug/CMakeFiles/stack.dir
+C:/Users/dbgh7/CLionProjects/stack자료구조/cmake-build-debug/CMakeFiles/assignment1.c.dir
 C:/Users/dbgh7/CLionProjects/stack자료구조/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/dbgh7/CLionProjects/stack자료구조/cmake-build-debug/CMakeFiles/rebuild_cache.dir
