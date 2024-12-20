@@ -41,43 +41,43 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/dbgh7/CLionProjects/stack자료구조/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target assignment1.c
+# Object build statements for EXECUTABLE target stack.c
 
 
 #############################################
-# Order-only phony target for assignment1.c
+# Order-only phony target for stack.c
 
-build cmake_object_order_depends_target_assignment1.c: phony || .
+build cmake_object_order_depends_target_stack.c: phony || .
 
-build CMakeFiles/assignment1.c.dir/stack.c.obj: C_COMPILER__assignment1.2ec_unscanned_Debug C$:/Users/dbgh7/CLionProjects/stack자료구조/stack.c || cmake_object_order_depends_target_assignment1.c
-  DEP_FILE = CMakeFiles\assignment1.c.dir\stack.c.obj.d
+build CMakeFiles/stack.c.dir/assignment1.c.obj: C_COMPILER__stack.2ec_unscanned_Debug C$:/Users/dbgh7/CLionProjects/stack자료구조/assignment1.c || cmake_object_order_depends_target_stack.c
+  DEP_FILE = CMakeFiles\stack.c.dir\assignment1.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\assignment1.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\assignment1.c.dir
+  OBJECT_DIR = CMakeFiles\stack.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack.c.dir
 
-build CMakeFiles/assignment1.c.dir/assignment1.c.obj: C_COMPILER__assignment1.2ec_unscanned_Debug C$:/Users/dbgh7/CLionProjects/stack자료구조/assignment1.c || cmake_object_order_depends_target_assignment1.c
-  DEP_FILE = CMakeFiles\assignment1.c.dir\assignment1.c.obj.d
+build CMakeFiles/stack.c.dir/assignment2.c.obj: C_COMPILER__stack.2ec_unscanned_Debug C$:/Users/dbgh7/CLionProjects/stack자료구조/assignment2.c || cmake_object_order_depends_target_stack.c
+  DEP_FILE = CMakeFiles\stack.c.dir\assignment2.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\assignment1.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\assignment1.c.dir
+  OBJECT_DIR = CMakeFiles\stack.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack.c.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target assignment1.c
+# Link build statements for EXECUTABLE target stack.c
 
 
 #############################################
-# Link the executable assignment1.c.exe
+# Link the executable stack.c.exe
 
-build assignment1.c.exe: C_EXECUTABLE_LINKER__assignment1.2ec_Debug CMakeFiles/assignment1.c.dir/stack.c.obj CMakeFiles/assignment1.c.dir/assignment1.c.obj
+build stack.c.exe: C_EXECUTABLE_LINKER__stack.2ec_Debug CMakeFiles/stack.c.dir/assignment1.c.obj CMakeFiles/stack.c.dir/assignment2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\assignment1.c.dir
+  OBJECT_DIR = CMakeFiles\stack.c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = assignment1.c.exe
-  TARGET_IMPLIB = libassignment1.c.dll.a
-  TARGET_PDB = assignment1.c.exe.dbg
+  TARGET_FILE = stack.c.exe
+  TARGET_IMPLIB = libstack.c.dll.a
+  TARGET_PDB = stack.c.exe.dbg
 
 
 #############################################
@@ -105,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build assignment1.c: phony assignment1.c.exe
+build stack.c: phony stack.c.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +115,7 @@ build assignment1.c: phony assignment1.c.exe
 #############################################
 # Folder: C:/Users/dbgh7/CLionProjects/stack자료구조/cmake-build-debug
 
-build all: phony assignment1.c.exe
+build all: phony stack.c.exe
 
 # =============================================================================
 # Built-in targets

@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(
         stack.c
-        assignment1.c)
+        assignment1.c
+        assignment2.c)

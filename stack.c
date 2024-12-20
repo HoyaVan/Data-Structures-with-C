@@ -1,8 +1,15 @@
+/**
+ * @author Yuho Lim
+ * @purpose Create a program that adding value into the array through stack push and pop
+ * @date 2024.12.17
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 100
 
-typedef struct StackType {
+typedef struct StackType
+{
     int arr[SIZE]; // 100 of int data
     int top;
 } StackType;
@@ -66,7 +73,7 @@ int peek(StackType *s)
     return s->arr[s->top];
 }
 
-int main(void)
+int main_other(void)
 {
     StackType s;
     init(&s); // reset stack
@@ -83,3 +90,4 @@ int main(void)
     printf("\npop: %d\n", pop(&s));
     return 0;
 }
+

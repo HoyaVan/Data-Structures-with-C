@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "assignment1.c.exe"
+			"path" : "stack.c.exe"
 		},
 		{
-			"path" : "assignment1.c.pdb"
+			"path" : "stack.c.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "assignment1.c::@6890427a1f51a3e7e1df",
+	"id" : "stack.c::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "assignment1.c",
-	"nameOnDisk" : "assignment1.c.exe",
+	"name" : "stack.c",
+	"nameOnDisk" : "stack.c.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -100,13 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "stack.c",
+			"path" : "assignment1.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "assignment1.c",
+			"path" : "assignment2.c",
 			"sourceGroupIndex" : 0
 		}
 	],

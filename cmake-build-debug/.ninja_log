@@ -1,5 +1,19 @@
 # ninja log v6
 9	150	7561951129331687	CMakeFiles/stack.dir/main.c.obj	5f4ec1df1f974c5c
 151	395	7561951130743672	stack.exe	7c360bf433b6616e
-160	426	7561956958259192	assignment1.c.exe	24e92a5b258dbcfe
-2	158	7561956956676324	CMakeFiles/assignment1.c.dir/stack.c.obj	e6cca466c4f5936
+113	284	7563679269234788	assignment1.c.exe	3129b0cf31ad9085
+4	113	7563679268156349	CMakeFiles/assignment1.c.dir/stack.c.obj	e6cca466c4f5936
+12	111	7563679268233076	CMakeFiles/assignment1.c.dir/assignment1.c.obj	c555049ea09c3366
+1	172	7563712301082035	CMakeFiles/stack.c.dir/assignment1.c.obj	425c5195531aaf23
+9	101	7563712799459480	CMakeFiles/stack.c.dir/assignment2.c.obj	a90a6689bc5fe09b
+4	107	7563712799406026	CMakeFiles/stack.c.dir/assignment1.c.obj	425c5195531aaf23
+107	287	7563712800439910	stack.c.exe	c69b953ae385241a
+4	126	7563714629238713	CMakeFiles/stack.c.dir/assignment2.c.obj	a90a6689bc5fe09b
+127	249	7563714630470521	stack.c.exe	c69b953ae385241a
+4	106	7563715027266994	CMakeFiles/stack.c.dir/assignment2.c.obj	a90a6689bc5fe09b
+106	207	7563715028290683	stack.c.exe	c69b953ae385241a
+3	113	7563721157184602	CMakeFiles/stack.c.dir/assignment1.c.obj	425c5195531aaf23
+8	114	7563721157248995	CMakeFiles/stack.c.dir/assignment2.c.obj	a90a6689bc5fe09b
+114	220	7563721158302620	stack.c.exe	c69b953ae385241a
+4	95	7563721402247521	CMakeFiles/stack.c.dir/assignment2.c.obj	a90a6689bc5fe09b
+95	216	7563721403169886	stack.c.exe	c69b953ae385241a
