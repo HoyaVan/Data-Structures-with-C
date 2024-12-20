@@ -56,19 +56,23 @@ int peek_assignment(PalindromeValidation *p) {
     return p->arr[p->top];
 }
 
-void scan_assignment(PalindromeValidation *p) {
-    if (p->top < 0) {
-        printf("No letters in the array.\n");
-        exit(1);
+int isPalindrome(const char *input) {
+    PalindromeValidation stack;
+    init_assignment(&stack);
+
+    // Push all characters onto the stack
+    for (int i = 0; input[i] != '\0'; i++) {
+        push_assignment(&stack, input[i]);
     }
 
-    // Compare the first and last letters
-    if (p->arr[0] == p->arr[p->top]) {
-        printf("The first and the last letter are the same.\n");
-    } else {
-        printf("The first and the last letter are NOT the same.\n");
+    // Compare characters by popping from the stack
+    for (int i = 0; input[i] != '\0'; i++) {
+        char reversedChar = pop_assignment(&stack);
+        if (input[i] != reversedChar) {
+            return 0; // Not a palindrome
+        }
     }
-    printf("\n");
+    return 1; // Is a palindrome
 }
 
 void display_assignment(PalindromeValidation *p) {
@@ -82,23 +86,23 @@ void display_assignment(PalindromeValidation *p) {
     }
 }
 
-int main_other2(void) {
-    PalindromeValidation s;
+int main(void) {
+    char input[SIZE];
 
-    init_assignment(&s);
-
-    printf("Please enter an Sentence: ");
-    fgets(s.arr, SIZE, stdin);
+    printf("Please enter a sentence: ");
+    fgets(input, SIZE, stdin);
 
     // Remove the newline character added by fgets
-    s.arr[strcspn(s.arr, "\n")] = '\0';
+    input[strcspn(input, "\n")] = '\0';
 
-    // Update the `top` variable to reflect the last character index
-    s.top = strlen(s.arr) - 1;
+    printf("You entered: %s\n", input);
 
-    scan_assignment(&s);
-
-    display_assignment(&s);
+    // Check if it's a palindrome
+    if (isPalindrome(input)) {
+        printf("The input is a palindrome.\n");
+    } else {
+        printf("The input is NOT a palindrome.\n");
+    }
 
     return 0;
 }

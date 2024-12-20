@@ -69,7 +69,7 @@ bool isMatchingPair(char opening, char closing) {
 
 // Function to verify if parentheses match
 bool verifyParentheses(const char *input, match_parentheses *m) {
-    init_assignment2 (m);
+    init_assignment2(m);
 
     for (int i = 0; input[i] != '\0'; i++) {
         char c = input[i];
@@ -90,7 +90,7 @@ bool verifyParentheses(const char *input, match_parentheses *m) {
     return isEmpty_assignment2(m);
 }
 
-int main() {
+int main_other2(void) {
     match_parentheses m;
 
     init_assignment2(&m);
